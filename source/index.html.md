@@ -30,15 +30,15 @@ This example API documentation page was created with [Slate](https://github.com/
 > To authorize, use this code:
 
 ```ruby
-require 'kittn'
+require 'nodablock'
 
-api = Kittn::APIClient.authorize!('meowmeowmeow')
+api = Nodablock::APIClient.authorize!('meowmeowmeow')
 ```
 
 ```python
-import kittn
+import nodablock
 
-api = kittn.authorize('meowmeowmeow')
+api = nodablock.authorize('meowmeowmeow')
 ```
 
 ```shell
@@ -48,16 +48,16 @@ curl "api_endpoint_here"
 ```
 
 ```javascript
-const kittn = require('kittn');
+const nodablock = require('nodablock');
 
-let api = kittn.authorize('meowmeowmeow');
+let api = nodablock.authorize('meowmeowmeow');
 ```
 
 > Make sure to replace `meowmeowmeow` with your API key.
 
-Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our [developer portal](http://example.com/developers).
+Nodablock uses API keys to allow access to the API. You can register a new Nodablock API key at our [developer portal](http://example.com/developers).
 
-Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:
+Nodablock expects for the API key to be included in all API requests to the server in a header that looks like the following:
 
 `Authorization: meowmeowmeow`
 
@@ -70,16 +70,16 @@ You must replace <code>meowmeowmeow</code> with your personal API key.
 ## Get All Kittens
 
 ```ruby
-require 'kittn'
+require 'nodablock'
 
-api = Kittn::APIClient.authorize!('meowmeowmeow')
+api = Nodablock::APIClient.authorize!('meowmeowmeow')
 api.kittens.get
 ```
 
 ```python
-import kittn
+import nodablock
 
-api = kittn.authorize('meowmeowmeow')
+api = nodablock.authorize('meowmeowmeow')
 api.kittens.get()
 ```
 
@@ -89,9 +89,9 @@ curl "http://example.com/api/kittens"
 ```
 
 ```javascript
-const kittn = require('kittn');
+const nodablock = require('nodablock');
 
-let api = kittn.authorize('meowmeowmeow');
+let api = nodablock.authorize('meowmeowmeow');
 let kittens = api.kittens.get();
 ```
 
@@ -136,16 +136,16 @@ Remember — a happy kitten is an authenticated kitten!
 ## Get a Specific Kitten
 
 ```ruby
-require 'kittn'
+require 'nodablock'
 
-api = Kittn::APIClient.authorize!('meowmeowmeow')
+api = Nodablock::APIClient.authorize!('meowmeowmeow')
 api.kittens.get(2)
 ```
 
 ```python
-import kittn
+import nodablock
 
-api = kittn.authorize('meowmeowmeow')
+api = nodablock.authorize('meowmeowmeow')
 api.kittens.get(2)
 ```
 
@@ -155,9 +155,9 @@ curl "http://example.com/api/kittens/2"
 ```
 
 ```javascript
-const kittn = require('kittn');
+const nodablock = require('nodablock');
 
-let api = kittn.authorize('meowmeowmeow');
+let api = nodablock.authorize('meowmeowmeow');
 let max = api.kittens.get(2);
 ```
 
@@ -190,16 +190,16 @@ ID | The ID of the kitten to retrieve
 ## Delete a Specific Kitten
 
 ```ruby
-require 'kittn'
+require 'nodablock'
 
-api = Kittn::APIClient.authorize!('meowmeowmeow')
+api = Nodablock::APIClient.authorize!('meowmeowmeow')
 api.kittens.delete(2)
 ```
 
 ```python
-import kittn
+import nodablock
 
-api = kittn.authorize('meowmeowmeow')
+api = nodablock.authorize('meowmeowmeow')
 api.kittens.delete(2)
 ```
 
@@ -210,9 +210,9 @@ curl "http://example.com/api/kittens/2"
 ```
 
 ```javascript
-const kittn = require('kittn');
+const nodablock = require('nodablock');
 
-let api = kittn.authorize('meowmeowmeow');
+let api = nodablock.authorize('meowmeowmeow');
 let max = api.kittens.delete(2);
 ```
 
