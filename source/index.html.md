@@ -17,7 +17,8 @@ search: true
 
 # Introduction
 
-Welcome to the NodaBlock API! You can use our API to access NodaBlock API endpoints. The documentation is currently a Work In Progress.
+Welcome to the [NodaBlock](https://nodablock.com) API documentation!  Nodablock provide you an easy access to any Blockchain networks (Bitcoin, Ethereum, and more coming soon). 
+You can use our API to access NodaBlock API endpoints. The documentation is currently a Work In Progress.
 
 # Authentication
 
@@ -38,7 +39,7 @@ curl "api_endpoint_here"
 
 > Make sure to replace `meowmeowmeow` with your API key.
 
-Nodablock uses API keys to allow access to the API. You can register a new Nodablock API key at our [developer portal](#).
+Nodablock uses API keys to allow access to the API. You can register a new Nodablock API key here (link comiong soon).
 
 Nodablock expects for the API key to be included in all API requests to the server in a header that looks like the following:
 
@@ -47,4 +48,3 @@ Nodablock expects for the API key to be included in all API requests to the serv
 <aside class="notice">
 You must replace <code>meowmeowmeow</code> with your personal API key.
 </aside>
-
